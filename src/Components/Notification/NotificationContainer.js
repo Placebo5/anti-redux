@@ -5,7 +5,6 @@ class NotificationContainer extends Component {
   static propTypes = {};
   state = {};
   render() {
-    console.log(this.props);
     return <NotificationPresenter {...this.props} {...this.state} />;
   }
 }
